@@ -11,7 +11,7 @@ const socket = io('/');
 let myVideoStream ;
 
 const videoGrid = document.getElementById('video-grid') ; 
-// console.log(videoGrid); 
+ // console.log(videoGrid); for the video  
 const myVideo = document.createElement('video'); 
 myVideo.muted = true ;  
 let text  = $('input') ; 
