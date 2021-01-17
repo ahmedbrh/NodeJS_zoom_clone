@@ -44,6 +44,8 @@ io.on('connection', (socket)=> {
 
 //listen to the server 
  
-server.listen(process.env.PORT || 4040 , ()=> { 
+ server.listen(process.env.PORT || 4040) ;
 
-    console.log(`server is running on port ${process.env.PORT }`)}) ; 
+// , ()=> { 
+
+//     console.log(`server is running on port ${process.env.PORT }`)}) ; 
