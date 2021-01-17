@@ -1,7 +1,12 @@
 
 
 const socket = io('/'); 
-
+ //  PPER 
+ let peer = new Peer (undefined , {
+  path : '/peerjs' , 
+  host : '/' , 
+  port:  '4040'
+}); 
 //view our own Video
 let myVideoStream ;
 
@@ -64,12 +69,7 @@ socket.on('createMessage' , message => {
    }
 
 
- //  PPER 
- var peer = new Peer (undefined , {
-    path : '/peerjs' , 
-    host : '/' , 
-    port:  '4040'
-}); 
+
 peer.on('open' , id => { 
 
 socket.emit('join-room' ,ROOM_ID , id); 
