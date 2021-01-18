@@ -3,6 +3,7 @@
  
 With everyone being forced to work and socialize from home video chat has become incredibly important. Over the last few months Zoom has been consistently criticized for their poor security and privacy, so I decided to make my own Zoom clone.
 
+![2021-01-17 (4)](https://user-images.githubusercontent.com/71940376/104870293-690e6300-5948-11eb-9b33-2f641370574b.png)
 https://murmuring-beyond-15424.herokuapp.com
 
 
