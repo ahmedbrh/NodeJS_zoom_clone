@@ -26,7 +26,7 @@ w
 
 `npm start `
 
-3. Open localhost on port 4040 (can be changer from server file) 
+3. Open localhost on port 4040 (can be change from server file) 
 
 `localhost:4040/`
 
