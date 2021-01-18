@@ -10,14 +10,15 @@ https://murmuring-beyond-15424.herokuapp.com
 
 - Simplistic Zoom Clone Web-App using NodeJS.
 - Zoom Meeting can be joined for two windows, using same meet ID Url.
-- Copy the link with the same ID  and send it to your friend so he can join the room  😀
+- Copy the link with the same ID  url and send it to your friend so he can join the room  😀
+- Unlimited users
 
 
 
 ### Runing the project 
 
 1. install all the dependecies
-
+w
  
 `npm install  `
 
